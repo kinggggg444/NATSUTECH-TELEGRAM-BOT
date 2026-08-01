@@ -1,0 +1,20 @@
+{
+  "name": "natsutech-telegram-bot",
+  "version": "1.0.0",
+  "description": "NATSUTECH Telegram Bot by NatsuTech's",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.0",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "author": "NatsuTech's",
+  "license": "MIT"
+}
